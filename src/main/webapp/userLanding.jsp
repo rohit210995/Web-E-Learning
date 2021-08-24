@@ -14,7 +14,7 @@
 	<ul>
 		<li><a class="active" href="userLanding.jsp">Home</a></li>
 		<li><a href="contact.jsp">Contact Details</a></li>
-		<li><a href="showAllCourses.jsp">View Courses</a></li>
+		<li><a href="showAllCoursesUser.jsp">View Courses</a></li>
 		<li><a href="feedback.jsp">Feedback</a></li>
 		<li><a href="index.jsp">Logout</a></li>
 	</ul>

@@ -16,8 +16,10 @@
 		<li><a class="active" href="adminLanding.jsp">Home</a></li>
 		<li><a href="showAllUsers.jsp">User Details</a></li>
 		<li><a href="checkFeedback.jsp">Check Feedback</a></li>
-		<li><a href="showAllCourses.jsp">View Courses</a></li>
+		<li><a href="showAllCoursesAdmin.jsp">View Courses</a></li>
 		<li><a href="course.jsp">Add Course</a></li>
+		<li><a href="courseUpdate.jsp">Update Course</a></li>
+		<li><a href="courseDelete.jsp">Delete Course</a></li>
 		<li><a href="index.jsp">Logout</a></li>
 	</ul>
 	</nav>
