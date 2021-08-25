@@ -5,7 +5,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>Register Form</title>
+<title>Registration Form</title>
 <link rel="stylesheet" href="loginStyle.css">
 
 </head>

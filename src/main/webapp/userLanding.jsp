@@ -13,13 +13,12 @@
 	</label> <label class="logo">E-Learning Portal</label>
 	<ul>
 		<li><a class="active" href="userLanding.jsp">Home</a></li>
-		<li><a href="contact.jsp">Contact Details</a></li>
-		<li><a href="showAllCoursesUser.jsp">View Courses</a></li>
-		<li><a href="feedback.jsp">Feedback</a></li>
-		<li><a href="index.jsp">Logout</a></li>
+		<li><a class="active" href="contact.jsp">Contact Details</a></li>
+		<li><a class="active" href="showAllCoursesUser.jsp">View Courses</a></li>
+		<li><a class="active" href="feedback.jsp">Feedback</a></li>
+		<li><a class="active" href="index.jsp">Logout</a></li>
 	</ul>
 	</nav>
-	<h1>Welcome !!!</h1>
-	<section> <img src="amdocs.jpg" width=100% height="640" /> </section>
+	<!--  <section> <img src="amdocs.jpg" width=100% height="640" /> </section>-->
 </body>
 </html>

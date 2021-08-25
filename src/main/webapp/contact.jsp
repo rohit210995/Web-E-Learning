@@ -6,7 +6,7 @@
 <html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
-<title>Contact Form</title>
+<title>Contact Details</title>
 <link rel="stylesheet" href="loginStyle.css">
 
 </head>

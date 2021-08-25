@@ -25,7 +25,7 @@
 			</div>
 
 			<div class="admin">
-				<a href="index.jsp">Click here for user login</a>
+				<a href="index.jsp">Click here for User Login</a>
 			</div>
 		</form>
 	</div>

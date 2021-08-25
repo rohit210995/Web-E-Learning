@@ -11,18 +11,18 @@
 <body>
 	<nav> <input type="checkbox" id="check"> <label
 		for="check" class="checkbtn"> <i class="fas fa-bars"></i>
-	</label> <label class="logo">Admin Control Panel</label>
+	</label> <label class="logo">Admin</label>
 	<ul>
 		<li><a class="active" href="adminLanding.jsp">Home</a></li>
-		<li><a href="showAllUsers.jsp">User Details</a></li>
-		<li><a href="checkFeedback.jsp">Check Feedback</a></li>
-		<li><a href="showAllCoursesAdmin.jsp">View Courses</a></li>
-		<li><a href="course.jsp">Add Course</a></li>
-		<li><a href="courseUpdate.jsp">Update Course</a></li>
-		<li><a href="courseDelete.jsp">Delete Course</a></li>
-		<li><a href="index.jsp">Logout</a></li>
+		<li><a class="active" href="showAllUsers.jsp">User Details</a></li>
+		<li><a class="active" href="checkFeedback.jsp">Check Feedback</a></li>
+		<li><a class="active" href="showAllCoursesAdmin.jsp">View Courses</a></li>
+		<li><a class="active" href="course.jsp">Add Course</a></li>
+		<li><a class="active" href="courseUpdate.jsp">Update Course</a></li>
+		<li><a class="active" href="courseDelete.jsp">Delete Course</a></li>
+		<li><a class="active" href="index.jsp">Logout</a></li>
 	</ul>
 	</nav>
-	<section> <img src="amdocs.jpg" width=100% height="640" /> </section>
+	<!--  <section> <img src="amdocs.jpg" width=100% height="640" /> </section>-->
 </body>
 </html>

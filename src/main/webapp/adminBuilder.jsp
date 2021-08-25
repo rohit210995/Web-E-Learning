@@ -25,7 +25,7 @@
              }
              else
              {
-            	 output.println("Invalid User Password");
+            	 output.println("Invalid User ID or Password");
                  System.out.println("fail");
                  response.sendRedirect("loginFailure.jsp");
              }

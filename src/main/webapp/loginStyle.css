@@ -21,7 +21,7 @@ html, body {
 	width: 100%;
 	place-items: center;
 	background: #f2f2f2;
-	/* background: linear-gradient(-135deg, #c850c0, #4158d0); */
+	/* background: linear-gradient(-135deg, #81B622, #ECF87F); */
 }
 
 ::selection {
@@ -44,7 +44,7 @@ html, body {
 	color: #fff;
 	user-select: none;
 	border-radius: 15px 15px 0 0;
-	background: linear-gradient(-135deg, #c850c0, #4158d0);
+	background: linear-gradient(-135deg, #81B622, #ECF87F);
 }
 
 .wrapper form {
@@ -70,7 +70,7 @@ html, body {
 }
 
 .wrapper form .field input:focus, form .field input:valid {
-	border-color: #4158d0;
+	border-color: #81B622;
 }
 
 .wrapper form .field label {
@@ -88,7 +88,7 @@ html, body {
 form .field input:focus ~ label, form .field input:valid ~ label {
 	top: 0%;
 	font-size: 16px;
-	color: #4158d0;
+	color: #81B622;
 	background: #fff;
 	transform: translateY(-50%);
 }
@@ -132,7 +132,7 @@ form .field input[type="submit"] {
 	font-size: 20px;
 	font-weight: 500;
 	cursor: pointer;
-	background: linear-gradient(-135deg, #c850c0, #4158d0);
+	background: linear-gradient(-135deg, #81B622, #ECF87F);
 	transition: all 0.3s ease;
 }
 
