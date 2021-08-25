@@ -10,13 +10,12 @@
     Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/elearning",
             "root", "root");
     Statement st = con.createStatement();
-    //out.print("dine");
-    //ResultSet rs;
+ 
     int i = st.executeUpdate("insert into feedback(userId, userName, userEmail, feedback) values ('" + userId + "','" + name + "','"  + email + "','"+ feedback+"')");
     if (i > 0) {
-        //session.setAttribute("userid", user);
+     
         response.sendRedirect("successUser.jsp");
-       // out.print("Registration Successfull!"+"<a href='index.jsp'>Go to Login</a>");
+      
     } else {
         response.sendRedirect("errorUser.jsp");
     }

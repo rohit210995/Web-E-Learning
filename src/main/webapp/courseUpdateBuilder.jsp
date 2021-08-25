@@ -10,7 +10,7 @@ Class.forName("com.mysql.jdbc.Driver");
 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/elearning", "root", "root");
 Statement st = con.createStatement();
 
-//System.out.println("update course set " + property + "='"+propertyValue+"' WHERE courseId='"+courseId+"'");
+
 
 int i = st.executeUpdate("update course set " + property + "='"+propertyValue+"' WHERE courseId='"+courseId+"'");
 
